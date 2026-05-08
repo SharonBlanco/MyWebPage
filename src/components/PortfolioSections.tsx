@@ -90,7 +90,7 @@ export const About = ({ theme }: { theme: ThemeVibe }) => {
             <div className="absolute -top-16 -left-16 w-64 h-64 border-2 border-[#5DA9A6]/10 rounded-full opacity-40 animate-pulse" />
             <div className="w-full aspect-square bg-[#F8FAFA] rounded-[60px] flex items-center justify-center relative overflow-hidden group border-[12px] border-white shadow-2xl">
                <div className="absolute inset-0 opacity-40 group-hover:opacity-70 transition-opacity">
-                 <img src="images/picture.jpg" alt="Sharon Blanco Profile" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
+                 <img src="/MyWebPage/images/picture.jpg" alt="Sharon Blanco Profile" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" referrerPolicy="no-referrer" />
                </div>
                <Terminal size={140} className="text-[#5DA9A6] relative z-10 opacity-10 group-hover:opacity-20 transition-all duration-500" />
             </div>
