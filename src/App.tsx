@@ -1,30 +1,22 @@
 import React, { useState } from "react";
-import { ThemeVibe } from "./types";
 import { THEMES } from "./constants";
-import { 
-  Navbar, Hero, About, 
-  Skills, Certifications, 
-  Projects, Contact, Footer 
-} from "./components/PortfolioSections";
+import { Navbar, Hero, About, Skills, Certifications, Projects, Contact, Footer } from "./components/PortfolioSections";
 
 const App = () => {
-  const [vibe, setVibe] = useState<ThemeVibe>("studio-grey");
+  const [vibe, setVibe] = useState("studio-grey");
+  const config = THEMES[vibe];
 
   return (
-    <div className={`min-h-screen font-sans selection:bg-gray-900 selection:text-white ${THEMES[vibe].bg} transition-colors duration-500`}>
-      <Navbar vibe={vibe} setVibe={setVibe} />
-      
-      <main>
-        <Hero theme={vibe} />
-        <About theme={vibe} />
-        <Skills theme={vibe} />
-        <Certifications theme={vibe} />
-        <Projects theme={vibe} />
-        <Contact theme={vibe} />
-      </main>
-
-      <Footer vibe={vibe} />
-    </div>
+    <main className={`min-h-screen ${config.bg} ${config.text}`}>
+      <Navbar config={config} vibe={vibe} setVibe={setVibe} />
+      <Hero config={config} />
+      <About config={config} />
+      <Skills config={config} />
+      <Certifications config={config} />
+      <Projects config={config} />
+      <Contact config={config} />
+      <Footer config={config} />
+    </main>
   );
 };
 
