@@ -38,7 +38,13 @@ export const THEMES: Record<ThemeVibe, ThemeConfig> = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "Statics 2025",
+    title: "Data Analysis: FIFA DATASET",
+    desc: "Exploratory data analysis and processing of FIFA player data (2015–2024), including data cleaning, quality reports, and statistical insights.",
+    techs: ["Pandas", "Python", "MySQL"],
+    link: "https://github.com/SharonBlanco/Proyecto_Analisis_De_Datos_DATASET_FIFA",
+  },
+  {
+    title: "Statistics 2025",
     desc: "Statistical analysis of flight databases using R in Colab environments.",
     techs: ["R", "Colab", "Statistics"],
     link: "https://github.com/SharonBlanco/Proyectos_Estadistica_2025",
