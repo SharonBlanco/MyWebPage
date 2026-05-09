@@ -68,7 +68,7 @@ export const PROJECTS: Project[] = [
     link: "https://github.com/SharonBlanco/II_Proyecto_Lenguajes",
   },
   {
-    title: "AI Healthy Menu",
+    title: "Intelligent Healthy Menu",
     desc: "Intelligent recommendation system using Prolog logic rules in a Python interface.",
     techs: ["Prolog", "Python", "Logic"],
     link: "https://github.com/SharonBlanco/III_Proyecto_Lenguajes",
