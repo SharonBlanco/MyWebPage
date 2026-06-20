@@ -50,16 +50,28 @@ export const PROJECTS: Project[] = [
     link: "https://github.com/SharonBlanco/Proyectos_Estadistica_2025",
   },
   {
+  title: "Business Intelligence Web Panel: FIFA Dataset",
+  desc: "Business Intelligence web panel for FIFA player data from 2015 to 2024, featuring interactive dashboards for exploring insights from multiple analysis stages.",
+  techs: ["Python", "HTML", "CSS"],
+  link: "https://github.com/lenokeckler/Proyecto_Fase_V_Web",
+  },
+  {
+  title: "MiniGo Compiler",
+  desc: "Compiler for MiniGo, a typed subset of Go, generating native machine code via LLVM IR. Implements lexing/parsing, semantic analysis, and code generation, plus a Monaco-based IDE for live editing and compilation.",
+  techs: ["C#", "ANTLR4", "LLVM", "Compilers", "IDE"],
+  link: "https://github.com/SharonBlanco/MiniGoCompiler",
+  },
+{
+  title: "Alpha Compiler",
+  desc: "Small compiler for the Alpha language, generating native machine code through LLVM IR. Implements lexical and syntactic analysis, semantic validation, and code generation.",
+  techs: ["Java", "ANTLR4", "LLVM", "Compilers"],
+  link: "https://github.com/SharonBlanco/AlphaCompilerLLVM",
+},
+  {
     title: "Python Interpreter",
     desc: "Go-based bytecode micro-interpreter developed for the Languages course.",
     techs: ["Go", "Bytecode", "Compilers"],
     link: "https://github.com/ubeda-alex/I_Proyecto_Lenguajes",
-  },
-  {
-    title: "TriviaQuirk UI",
-    desc: "Multiplayer trivia game with Swing interface applying OOP principles.",
-    techs: ["Java", "Swing", "OOP"],
-    link: "https://github.com/SharonBlanco/POO_II_Proyecto_2023",
   },
   {
     title: "F# Game Suite",
